@@ -215,7 +215,7 @@ position: absolute;
 right: -210px;
 top: 0;
 }
-.kaufman_triangle svg {
+.kaufman_triangle img {
   width: 887px;
 }
 .table__cell_theme_dark {
@@ -267,6 +267,8 @@ top: 0;
 }
 .footer__social-icon {
   padding-right: 10px;
+  text-decoration: none;
+  display: inline-block;
 }
 .footer__column_content_copyright {
   display: flex;
