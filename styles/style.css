@@ -290,14 +290,12 @@
 	margin-top: 0;
 	padding-left: 0;
 }
-/*В брифе ссылки занимают прямоугольные области одинаковой ширины, а так же они имеют отступы между собой.
-По этим двум причинам я здесь применяю display: block.
-Если и сейчас что-то не так, то объясните подробнее как надо*/
+
 .footer__column-link {
-	display: block;
-  margin-bottom: 10px;
 	text-decoration: none;
 	color: #fff;
+	line-height: 30px;
+	font-size: 18px;
 }
 .footer__column-link:hover {
 	text-decoration: underline;
