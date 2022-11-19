@@ -6,7 +6,11 @@
 }
 
 .header {
-	background-color: #f2f2f2;
+  display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+  background-color: #f2f2f2;
 	height: 100vh;
 	min-height: 600px;
 	max-height: 756px;
@@ -24,11 +28,6 @@
 }
 
 .header__title {
-	height: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	flex-direction: column;
 	padding-left: 64px;
 	margin: 0;
 	width: 730px;
@@ -37,7 +36,7 @@
 	font-weight: 600;
 }
 
-.logo_place__header {
+.logo_place_header {
 	position: absolute;
 	top: 30px;
 	left: 64px;
@@ -291,14 +290,15 @@
 	margin-top: 0;
 	padding-left: 0;
 }
-
+/*В брифе ссылки занимают прямоугольные области одинаковой ширины, а так же они имеют отступы между собой.
+По этим двум причинам я здесь применяю display: block.
+Если и сейчас что-то не так, то объясните подробнее как надо*/
 .footer__column-link {
-	display: inline-block;
-	margin-bottom: 10px;
+	display: block;
+  margin-bottom: 10px;
 	text-decoration: none;
 	color: #fff;
 }
-
 .footer__column-link:hover {
 	text-decoration: underline;
 }
