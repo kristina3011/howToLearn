@@ -6,11 +6,11 @@
 }
 
 .header {
-  display: flex;
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	flex-direction: column;
-  background-color: #f2f2f2;
+	background-color: #f2f2f2;
 	height: 100vh;
 	min-height: 600px;
 	max-height: 756px;
@@ -34,6 +34,7 @@
 	line-height: 96px;
 	font-size: 102px;
 	font-weight: 600;
+	z-index: 1;
 }
 
 .logo_place_header {
@@ -297,6 +298,7 @@
 	line-height: 30px;
 	font-size: 18px;
 }
+
 .footer__column-link:hover {
 	text-decoration: underline;
 }
