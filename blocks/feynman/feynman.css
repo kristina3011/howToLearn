@@ -8,4 +8,5 @@
     background-size: 867px;
     background-repeat: no-repeat;
     min-height: 890px;
+    box-sizing: border-box;
   }
